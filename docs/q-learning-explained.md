@@ -95,9 +95,3 @@ It discovers these strategies through trial and error, not because we programmed
 | `discount_factor` | 0.95 | How much to value future rewards vs immediate |
 | `epsilon` | 1.0 → 0.01 | Probability of random exploration |
 | `epsilon_decay` | 0.9995 | How fast exploration decreases |
-
-## Next Steps
-
-1. Run `python src/train.py` to train an agent
-2. Run `python src/play.py` to play against it
-3. Open `notebooks/visualization.ipynb` to see learning curves
